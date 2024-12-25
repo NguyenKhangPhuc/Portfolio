@@ -1,0 +1,43 @@
+import React from 'react'
+import { certificates } from '../constants'
+import { Swiper, SwiperSlide } from 'swiper/react'
+import { styles } from '../styles'
+import 'swiper/css'
+import 'swiper/css/effect-coverflow'
+import 'swiper/css/navigation'
+
+import { EffectCoverflow, } from 'swiper/modules'
+import { delay } from 'framer-motion'
+
+const Certificate = () => {
+    return (
+        <div className='container'>
+            <Swiper
+                effect={'coverflow'}
+                grabCursor={true}
+                centeredSlides={true}
+                loop={true}
+                slidesPerView={'auto'}
+                coverflowEffect={{
+                    rotate: 0,
+                    stretch: 0,
+                    depth: 100,
+                    modifier: 4,
+                    slideShadows: true
+                }}
+                modules={[EffectCoverflow]}
+                className='swiper_container'
+            >
+                {certificates.map((certificate, index) => {
+                    return (
+                        <SwiperSlide>
+                            <img src={certificate.img} alt="slide_image" />
+                        </SwiperSlide>
+                    )
+                })}
+            </Swiper>
+        </div >
+    )
+}
+
+export default Certificate
