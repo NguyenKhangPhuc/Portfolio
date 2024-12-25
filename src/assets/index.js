@@ -20,6 +20,9 @@ import redux from "./tech/redux.png";
 import tailwind from "./tech/tailwind.png";
 import typescript from "./tech/typescript.png";
 import threejs from "./tech/threejs.svg";
+import c_plus_plus from "./tech/C++.png"
+import golang from "./tech/golang.png"
+import python from "./tech/python.png"
 
 import meta from "./company/meta.png";
 import shopify from "./company/shopify.png";
@@ -78,4 +81,7 @@ export {
   gratitude,
   initiare,
   university,
+  c_plus_plus,
+  golang,
+  python,
 };

@@ -32,6 +32,9 @@ import {
     gratitude,
     initiare,
     university,
+    c_plus_plus,
+    golang,
+    python,
 } from "../assets";
 
 export const navLinks = [
@@ -98,8 +101,8 @@ const technologies = [
         icon: reactjs,
     },
     {
-        name: "Redux Toolkit",
-        icon: redux,
+        name: "Golang",
+        icon: golang,
     },
     {
         name: "Tailwind CSS",
@@ -114,20 +117,20 @@ const technologies = [
         icon: mongodb,
     },
     {
-        name: "Three JS",
-        icon: threejs,
+        name: "Python",
+        icon: python,
     },
     {
-        name: "git",
+        name: "Git",
         icon: git,
     },
     {
-        name: "figma",
+        name: "Figma",
         icon: figma,
     },
     {
-        name: "docker",
-        icon: docker,
+        name: "C++",
+        icon: c_plus_plus,
     },
 ];
 
