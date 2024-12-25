@@ -25,6 +25,8 @@ import meta from "./company/meta.png";
 import shopify from "./company/shopify.png";
 import starbucks from "./company/starbucks.png";
 import tesla from "./company/tesla.png";
+import initiare from "./company/initiare.jpg"
+import university from "./company/university.png"
 
 import carrent from "./carrent.png";
 import jobit from "./jobit.png";
@@ -73,5 +75,7 @@ export {
   ml,
   oop,
   NKP,
-  gratitude
+  gratitude,
+  initiare,
+  university,
 };

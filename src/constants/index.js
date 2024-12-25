@@ -29,7 +29,9 @@ import {
     go,
     ml,
     oop,
-    gratitude
+    gratitude,
+    initiare,
+    university,
 } from "../assets";
 
 export const navLinks = [
@@ -131,55 +133,26 @@ const technologies = [
 
 const experiences = [
     {
-        title: "React.js Developer",
-        company_name: "Starbucks",
-        icon: starbucks,
-        iconBg: "#383E56",
-        date: "March 2020 - April 2021",
+        title: "Web Developer",
+        company_name: "Ho Chi Minh City University of Education's Chinese language department",
+        icon: university,
+        iconBg: "white",
+        date: "May 2024 - August 2024",
         points: [
-            "Developing and maintaining web applications using React.js and other related technologies.",
-            "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-            "Implementing responsive design and ensuring cross-browser compatibility.",
-            "Participating in code reviews and providing constructive feedback to other developers.",
-        ],
-    },
-    {
-        title: "React Native Developer",
-        company_name: "Tesla",
-        icon: tesla,
-        iconBg: "#E6DEDD",
-        date: "Jan 2021 - Feb 2022",
-        points: [
-            "Developing and maintaining web applications using React.js and other related technologies.",
-            "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-            "Implementing responsive design and ensuring cross-browser compatibility.",
-            "Participating in code reviews and providing constructive feedback to other developers.",
+            "Providing support in building the activity report web application for the Sub-association of the Chinese language language Department.",
+            "Using React.js, Node.js, Express.js, and MongoDB to implement responsive design and ensuring cross-browser compatibility."
         ],
     },
     {
         title: "Web Developer",
-        company_name: "Shopify",
-        icon: shopify,
-        iconBg: "#383E56",
-        date: "Jan 2022 - Jan 2023",
+        company_name: "INITIARE",
+        icon: initiare,
+        iconBg: "white",
+        date: "September 2024 - Now",
         points: [
-            "Developing and maintaining web applications using React.js and other related technologies.",
-            "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-            "Implementing responsive design and ensuring cross-browser compatibility.",
-            "Participating in code reviews and providing constructive feedback to other developers.",
-        ],
-    },
-    {
-        title: "Full stack Developer",
-        company_name: "Meta",
-        icon: meta,
-        iconBg: "#E6DEDD",
-        date: "Jan 2023 - Present",
-        points: [
-            "Developing and maintaining web applications using React.js and other related technologies.",
-            "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-            "Implementing responsive design and ensuring cross-browser compatibility.",
-            "Participating in code reviews and providing constructive feedback to other developers.",
+            "Developing and maintaining web applications using TypeScript, Go, and PostgreSQL",
+            "Work smoothly with other members in the team to perfect every small detail of the website.",
+            "The website provide an accessible and dynamic platform designed speciffically for students to unlock the power of professional research."
         ],
     },
 ];

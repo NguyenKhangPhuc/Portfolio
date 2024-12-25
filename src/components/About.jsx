@@ -29,7 +29,7 @@ const About = () => {
       <motion.div variants={textVariant()}>
         <h1 className={`${styles.sectionHeadText}`}>Certificates</h1>
       </motion.div>
-      <div className={`opacity-${opacity} duration-300`}><Certificate /></div>
+      <div className={`opacity-${opacity} duration-500`}><Certificate /></div>
     </div>
   )
 }
