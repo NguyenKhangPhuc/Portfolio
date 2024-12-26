@@ -24,7 +24,7 @@ const Navbar = () => {
             window.scrollTo(0, 0)
           }}
         >
-          <img src={logo} alt="logo" className='w-12 h-12 rounded-full hover:-translate-y-1 duration-200' />
+          <img src={logo} alt="logo" className='w-12 h-12 rounded-full hover:-translate-y-1 duration-200 mr-3' />
           <p className='text-[16px] md:text-[23px] text-white font-bold cursor-pointer'>
             Khang Phuc Nguyen
             <span className='text-indigo-400 block hover:translate-x-2 duration-200'> Software Engineer</span></p>

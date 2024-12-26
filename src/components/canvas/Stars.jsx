@@ -3,9 +3,6 @@ import { Canvas, useFrame } from "@react-three/fiber";
 import { Points, PointMaterial, Preload } from "@react-three/drei";
 import * as random from "maath/random/dist/maath-random.esm";
 import CanvasLoader from "../Loader"
-//template_2alf4ii
-//service_98x3uov
-//R5sn8InfifCnOHKnF
 const Stars = (props) => {
   const ref = useRef()
   const sphere = random.inSphere(new Float32Array(5000), { radius: 1.2 })
