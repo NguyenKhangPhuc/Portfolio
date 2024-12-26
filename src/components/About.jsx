@@ -30,10 +30,10 @@ const About = () => {
         <h1 className={`${styles.sectionHeadText}`}>Certificates</h1>
       </motion.div>
 
-      <motion.div className={`flex flex-col items-center`} variants={textVariant()}>
+      <motion.div className={`flex flex-col sm:items-center  items-start`} variants={textVariant()}>
         {certificates.map((ele, index) => {
           return (
-            <li key={`certificate - ${index}`} className="text-secondary text-[13px]">{ele.title}</li>
+            <li key={`certificate - ${index}`} className="items-start text-secondary text-[13px]">{ele.title}</li>
           )
         })}
         <Certificate />
