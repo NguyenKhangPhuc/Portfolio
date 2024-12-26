@@ -48,7 +48,7 @@ export const navLinks = [
 
 const certificates = [
     {
-        title: "Gratitude Letter",
+        title: "Gratitude Letter of Ho Chi Minh University of Education's Chinese Language Department",
         img: gratitude,
     },
     {
@@ -245,7 +245,7 @@ const projects = [
         demo: "https://todolist-production-8160.up.railway.app/",
     },
     {
-        name: "Trip Guide",
+        name: "Tetris",
         description:
             "A classic Tetris game following the usual rules, where players control falling blocks, clear lines, and track their progress with a scoring system. It features simple controls and a clean, user-friendly interface.",
         tags: [

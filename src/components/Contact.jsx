@@ -57,7 +57,7 @@ const Contact = () => {
         <form
           ref={formRef}
           onSubmit={handleSubmit}
-          className='mt-12 flex flex-col gap-8 sm:w-[450px] w-full'
+          className='mt-12 flex flex-col gap-8 xl:w-[450px] w-full 2xl:w-[550px]'
         >
           <label className='flex flex-col'>
             <span className='text-white font-medium mb-4'>Your name</span>
@@ -100,8 +100,8 @@ const Contact = () => {
         </form>
       </motion.div>
       <motion.div
-        variants={slideIn("right", "tween", 0.2, 1)}
-        className='xl:flex-1 xg:h-auto md:h-[700px] h-[350px]'
+        variants={slideIn("down", "tween", 0.2, 1)}
+        className='xl:flex-1 xg:h-auto md:h-[700px] h-[350px] xl:w-[300px] w-full flex justify-center'
       >
         <CharacterCanvas />
       </motion.div>
