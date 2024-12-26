@@ -1,29 +1,15 @@
 import { title } from "framer-motion/client";
 import {
-    mobile,
-    backend,
-    creator,
-    web,
     javascript,
     typescript,
     html,
     css,
     reactjs,
-    redux,
     tailwind,
     nodejs,
     mongodb,
     git,
     figma,
-    docker,
-    meta,
-    starbucks,
-    tesla,
-    shopify,
-    carrent,
-    jobit,
-    tripguide,
-    threejs,
     algorithm,
     beginner,
     go,
@@ -35,6 +21,10 @@ import {
     c_plus_plus,
     golang,
     python,
+    cakeshop,
+    quizzweb,
+    todolist,
+    tetris,
 } from "../assets";
 
 export const navLinks = [
@@ -189,67 +179,84 @@ const testimonials = [
 
 const projects = [
     {
-        name: "Car Rent",
+        name: "Cake Shop",
         description:
-            "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+            "A cake shop website with cake details, shop intro, user accounts, cart, and a simulated payment process. With an user-friendly interface, the web gives the customers seamless experiences.",
         tags: [
             {
-                name: "react",
+                name: "react.js",
                 color: "blue-text-gradient",
+            },
+            {
+                name: "node.js",
+                color: "green-text-gradient",
+            },
+            {
+                name: "express.js",
+                color: "pink-text-gradient",
             },
             {
                 name: "mongodb",
-                color: "green-text-gradient",
-            },
-            {
-                name: "tailwind",
-                color: "pink-text-gradient",
+                color: "blue-text-gradient",
             },
         ],
-        image: carrent,
-        source_code_link: "https://github.com/",
+        image: cakeshop,
+        source_code_link: "https://github.com/NguyenKhangPhuc/Cake-Shopping",
+        demo: "https://cake-shop-sigma.vercel.app/Home/66140bb2028d7af86325958a",
     },
     {
-        name: "Job IT",
+        name: "Quizz Web",
         description:
-            "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+            "A user-friendly quiz website offering a variety of quizzes. Users can quickly answer questions, and view their results, all within a clean, interactive design that ensures a seamless and enjoyable experience.",
         tags: [
             {
-                name: "react",
+                name: "react.js",
+                color: "blue-text-gradient",
+            },
+        ],
+        image: quizzweb,
+        source_code_link: "https://github.com/NguyenKhangPhuc",
+        demo: "https://quizapp-eight-alpha.vercel.app/",
+    },
+    {
+        name: "Todolist",
+        description:
+            "The ToDoList website offers a user-friendly interface for easy task management, with features to add, complete, delete, and clear tasks, ensuring efficient and convenient organization.",
+        tags: [
+            {
+                name: "typescript",
                 color: "blue-text-gradient",
             },
             {
-                name: "restapi",
+                name: "golang(fiber)",
                 color: "green-text-gradient",
             },
             {
-                name: "scss",
+                name: "mongodb",
                 color: "pink-text-gradient",
             },
         ],
-        image: jobit,
-        source_code_link: "https://github.com/",
+        image: todolist,
+        source_code_link: "https://github.com/NguyenKhangPhuc/Todolist",
+        demo: "https://todolist-production-8160.up.railway.app/",
     },
     {
         name: "Trip Guide",
         description:
-            "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+            "A classic Tetris game following the usual rules, where players control falling blocks, clear lines, and track their progress with a scoring system. It features simple controls and a clean, user-friendly interface.",
         tags: [
             {
-                name: "nextjs",
+                name: "c++",
                 color: "blue-text-gradient",
             },
             {
-                name: "supabase",
+                name: "raylib",
                 color: "green-text-gradient",
             },
-            {
-                name: "css",
-                color: "pink-text-gradient",
-            },
         ],
-        image: tripguide,
-        source_code_link: "https://github.com/",
+        image: tetris,
+        source_code_link: "https://github.com/NguyenKhangPhuc/Tetris-Game",
+        demo: "",
     },
 ];
 

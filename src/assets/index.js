@@ -1,14 +1,9 @@
 import logo from "./logo.png";
-import backend from "./backend.png";
-import creator from "./creator.png";
-import mobile from "./mobile.png";
-import web from "./web.png";
 import github from "./github.png";
 import menu from "./menu.svg";
 import close from "./close.svg";
 
 import css from "./tech/css.png";
-import docker from "./tech/docker.png";
 import figma from "./tech/figma.png";
 import git from "./tech/git.png";
 import html from "./tech/html.png";
@@ -16,24 +11,19 @@ import javascript from "./tech/javascript.png";
 import mongodb from "./tech/mongodb.png";
 import nodejs from "./tech/nodejs.png";
 import reactjs from "./tech/reactjs.png";
-import redux from "./tech/redux.png";
 import tailwind from "./tech/tailwind.png";
 import typescript from "./tech/typescript.png";
-import threejs from "./tech/threejs.svg";
 import c_plus_plus from "./tech/C++.png"
 import golang from "./tech/golang.png"
 import python from "./tech/python.png"
 
-import meta from "./company/meta.png";
-import shopify from "./company/shopify.png";
-import starbucks from "./company/starbucks.png";
-import tesla from "./company/tesla.png";
 import initiare from "./company/initiare.jpg"
 import university from "./company/university.png"
 
-import carrent from "./carrent.png";
-import jobit from "./jobit.png";
-import tripguide from "./tripguide.png";
+import cakeshop from "./cakeshop.png";
+import quizzweb from "./quizzweb.png";
+import tetris from "./tetris.png";
+import todolist from "./todolist.png";
 
 import algorithm from "./certificates/Algorithm.png"
 import beginner from "./certificates/C++_beg.png"
@@ -45,15 +35,10 @@ import gratitude from "./certificates/Gratitude.png"
 import NKP from "./NKP.jpg"
 export {
   logo,
-  backend,
-  creator,
-  mobile,
-  web,
   github,
   menu,
   close,
   css,
-  docker,
   figma,
   git,
   html,
@@ -61,17 +46,8 @@ export {
   mongodb,
   nodejs,
   reactjs,
-  redux,
   tailwind,
   typescript,
-  threejs,
-  meta,
-  shopify,
-  starbucks,
-  tesla,
-  carrent,
-  jobit,
-  tripguide,
   algorithm,
   beginner,
   go,
@@ -84,4 +60,8 @@ export {
   c_plus_plus,
   golang,
   python,
+  cakeshop,
+  todolist,
+  quizzweb,
+  tetris,
 };
