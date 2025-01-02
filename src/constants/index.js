@@ -135,7 +135,7 @@ const experiences = [
         iconBg: "white",
         date: "May 2024 - August 2024",
         points: [
-            "Providing support in building the activity report web application for the Sub-association of the Chinese language language Department.",
+            "Providing support in building the activity report web application for the Sub-association of the Chinese language Department.",
             "Using React.js, Node.js, Express.js, and MongoDB to implement responsive design and ensuring cross-browser compatibility."
         ],
     },
