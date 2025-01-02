@@ -22,7 +22,6 @@ import {
     golang,
     python,
     cakeshop,
-    quizzweb,
     todolist,
     tetris,
 } from "../assets";
@@ -147,37 +146,10 @@ const experiences = [
         iconBg: "white",
         date: "September 2024 - Now",
         points: [
-            "Developing and maintaining web applications using TypeScript, Go, and PostgreSQL",
-            "Work smoothly with other members in the team to perfect every small detail of the website.",
+            "Developing and maintaining web applications using TypeScript, Golang, and PostgreSQL",
+            "Responsible for the front-end field, including cleaning up and optimizing the code for the website",
             "The website provide an accessible and dynamic platform designed speciffically for students to unlock the power of professional research."
         ],
-    },
-];
-
-const testimonials = [
-    {
-        testimonial:
-            "I thought it was impossible to make a website as beautiful as our product, but Rick proved me wrong.",
-        name: "Sara Lee",
-        designation: "CFO",
-        company: "Acme Co",
-        image: "https://randomuser.me/api/portraits/women/4.jpg",
-    },
-    {
-        testimonial:
-            "I've never met a web developer who truly cares about their clients' success like Rick does.",
-        name: "Chris Brown",
-        designation: "COO",
-        company: "DEF Corp",
-        image: "https://randomuser.me/api/portraits/men/5.jpg",
-    },
-    {
-        testimonial:
-            "After Rick optimized our website, our traffic increased by 50%. We can't thank them enough!",
-        name: "Lisa Wang",
-        designation: "CTO",
-        company: "456 Enterprises",
-        image: "https://randomuser.me/api/portraits/women/6.jpg",
     },
 ];
 
@@ -206,21 +178,7 @@ const projects = [
         ],
         image: cakeshop,
         source_code_link: "https://github.com/NguyenKhangPhuc/Cake-Shopping",
-        demo: "https://cake-shop-sigma.vercel.app/Home/66140bb2028d7af86325958a",
-    },
-    {
-        name: "Quizz Web",
-        description:
-            "A user-friendly quiz website offering a variety of quizzes. Users can quickly answer questions, and view their results, all within a clean, interactive design that ensures a seamless and enjoyable experience.",
-        tags: [
-            {
-                name: "react.js",
-                color: "blue-text-gradient",
-            },
-        ],
-        image: quizzweb,
-        source_code_link: "https://github.com/NguyenKhangPhuc",
-        demo: "https://quizapp-eight-alpha.vercel.app/",
+        demo: "https://cake-shop-sigma.vercel.app/",
     },
     {
         name: "Todolist",
@@ -264,4 +222,4 @@ const projects = [
     },
 ];
 
-export { certificates, technologies, experiences, testimonials, projects };
+export { certificates, technologies, experiences, projects };
