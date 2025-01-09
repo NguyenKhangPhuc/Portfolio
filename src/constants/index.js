@@ -86,10 +86,6 @@ const technologies = [
         icon: javascript,
     },
     {
-        name: "TypeScript",
-        icon: typescript,
-    },
-    {
         name: "React JS",
         icon: reactjs,
     },
@@ -146,7 +142,7 @@ const experiences = [
         iconBg: "white",
         date: "September 2024 - Now",
         points: [
-            "Developing and maintaining web applications using TypeScript, Golang, and PostgreSQL",
+            "Developing and maintaining web applications using React.js, Golang, and PostgreSQL",
             "Responsible for the front-end field, including cleaning up and optimizing the code for the website",
             "The website provide an accessible and dynamic platform designed speciffically for students to unlock the power of professional research."
         ],
