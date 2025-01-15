@@ -31,6 +31,7 @@ import go from "./certificates/Go.png"
 import ml from "./certificates/ML.png"
 import oop from "./certificates/OOP_C++.png"
 import gratitude from "./certificates/Gratitude.png"
+import go_2 from "./certificates/Golang_2.png"
 
 import NKP from "./NKP.jpg"
 export {
@@ -53,6 +54,7 @@ export {
   go,
   ml,
   oop,
+  go_2,
   NKP,
   gratitude,
   initiare,

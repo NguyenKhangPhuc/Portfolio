@@ -1,7 +1,6 @@
 import { title } from "framer-motion/client";
 import {
     javascript,
-    typescript,
     html,
     css,
     reactjs,
@@ -15,6 +14,7 @@ import {
     go,
     ml,
     oop,
+    go_2,
     gratitude,
     initiare,
     university,
@@ -61,6 +61,10 @@ const certificates = [
     {
         title: "An introduction to Programming in Go",
         img: go,
+    },
+    {
+        title: "The way to Go",
+        img: go_2,
     },
     {
         title: "A Visual Introduction to Algorithms",
@@ -126,17 +130,6 @@ const technologies = [
 const experiences = [
     {
         title: "Web Developer",
-        company_name: "Ho Chi Minh City University of Education's Chinese language department",
-        icon: university,
-        iconBg: "white",
-        date: "May 2024 - August 2024",
-        points: [
-            "Providing support in building the activity report web application for the Sub-association of the Chinese language Department.",
-            "Using React.js, Node.js, Express.js, and MongoDB to implement responsive design and ensuring cross-browser compatibility."
-        ],
-    },
-    {
-        title: "Web Developer",
         company_name: "INITIARE",
         icon: initiare,
         iconBg: "white",
@@ -145,6 +138,17 @@ const experiences = [
             "Developing and maintaining web applications using React.js, Golang, and PostgreSQL",
             "Responsible for the front-end field, including cleaning up and optimizing the code for the website",
             "The website provide an accessible and dynamic platform designed speciffically for students to unlock the power of professional research."
+        ],
+    },
+    {
+        title: "Web Developer",
+        company_name: "Ho Chi Minh City University of Education's Chinese language department",
+        icon: university,
+        iconBg: "white",
+        date: "May 2024 - August 2024",
+        points: [
+            "Providing support in building the activity report web application for the Sub-association of the Chinese language Department.",
+            "Using React.js, Node.js, Express.js, and MongoDB to implement responsive design and ensuring cross-browser compatibility."
         ],
     },
 ];
