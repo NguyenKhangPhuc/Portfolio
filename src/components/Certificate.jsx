@@ -30,8 +30,12 @@ const Certificate = () => {
             >
                 {certificates.map((certificate, index) => {
                     return (
-                        <SwiperSlide>
-                            <img src={certificate.img} alt="slide_image" />
+                        <SwiperSlide className="w-full h-full flex justify-center items-center">
+                            <img
+                                src={certificate.img}
+                                alt="slide_image"
+                                className="w-full h-full object-cover"
+                            />
                         </SwiperSlide>
                     )
                 })}

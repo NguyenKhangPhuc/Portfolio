@@ -20,7 +20,7 @@ const Hero = () => {
           <p className={`${styles.heroSubText} mt-2 text-white-100`}>
             I am a software engineer/web developer.
           </p>
-          <a href="/resume.pdf" download="Khang_Phuc_Nguyen_resume.pdf">
+          <a href="/NKP_CV.pdf" download="KhangPhucNguyen_CV.pdf">
             <button
               className="mt-5 text-xl w-40 h-12 rounded bg-indigo-500 text-white relative overflow-hidden group z-10 hover:text-white duration-1000"
             >

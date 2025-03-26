@@ -24,6 +24,7 @@ import cakeshop from "./cakeshop.png";
 import quizzweb from "./quizzweb.png";
 import tetris from "./tetris.png";
 import todolist from "./todolist.png";
+import dimsum from './dimsum.png'
 
 import algorithm from "./certificates/Algorithm.png"
 import beginner from "./certificates/C++_beg.png"
@@ -32,6 +33,8 @@ import ml from "./certificates/ML.png"
 import oop from "./certificates/OOP_C++.png"
 import gratitude from "./certificates/Gratitude.png"
 import go_2 from "./certificates/Golang_2.png"
+import OOP_Java from './certificates/OOP_Java.png'
+import full_stack from './certificates/full-stack.png'
 
 import NKP from "./NKP.jpg"
 export {
@@ -55,6 +58,8 @@ export {
   ml,
   oop,
   go_2,
+  OOP_Java,
+  full_stack,
   NKP,
   gratitude,
   initiare,
@@ -66,4 +71,5 @@ export {
   todolist,
   quizzweb,
   tetris,
+  dimsum,
 };
